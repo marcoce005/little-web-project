@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calcolatrice.css">
+    <title>Calcolatrice</title>
+    
+    <script src="./calcolatrice.js"></script>
+</head>
+
+<body>
+    <h1>CALCOLATRICE BRUTTA</h1>
+    <div class="calcolatrice">
+        <div class="schermo">
+            <label for="schermo" id="output">&nbsp;</label>
+        </div>
+
+        <div class="tasto"><button id="cancella" onclick="erase()">C</button></div><br>
+        <div class="tasto"><button id="sette" onclick="n(7)">7</button></div>
+        <div class="tasto"><button id="otto" onclick="n(8)">8</button></div>
+        <div class="tasto"><button id="nove" onclick="n(9)">9</button></div>
+        <div class="tasto"><button id="diviso" onclick="operazione('/')">/</button></div>
+
+        <div class="tasto"><button id="quattro" onclick="n(4)">4</button></div>
+        <div class="tasto"><button id="cinque" onclick="n(5)">5</button></div>
+        <div class="tasto"><button id="sei" onclick="n(6)">6</button></div>
+        <div class="tasto"><button id="per" onclick="operazione('*')">*</button></div>
+
+        <div class="tasto"><button id="uno" onclick="n(1)">1</button></div>
+        <div class="tasto"><button id="due" onclick="n(2)">2</button></div>
+        <div class="tasto"><button id="tre" onclick="n(3)">3</button></div>
+        <div class="tasto"><button id="piu" onclick="operazione('+')">+</button></div>
+
+        <div class="tasto"><button id="zero" onclick="n(0)">0</button></div>
+        <div class="tasto"><button id="virgola" onclick="n('.')">.</button></div>
+        <div class="tasto"><button id="uguale" onclick="invio()">=</button></div>
+        <div class="tasto"><button id="meno" onclick="operazione('-')">-</button></div>
+    </div>
+</body>
+
+</html>

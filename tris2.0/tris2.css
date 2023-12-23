@@ -1,0 +1,124 @@
+.tabella {
+    width: 540px;
+    height: 525px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabella div {
+    width: 175px;
+    height: 175px;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.tabella div label {
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c0, .c3, .c6, .c1, .c4, .c7 {
+    border-right: 4px solid black;
+}
+
+.c0, .c1, .c2, .c3, .c4, .c5 {
+    border-bottom: 4px solid black;
+}
+
+.risultato {
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+    text-align: center;
+}
+
+#restart {
+    margin-left: 80%;
+    background-color: orangered;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#htop {
+    width: 525px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 90px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#hmiddle {
+    width: 525px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 265px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#hbottom {
+    width: 525px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 445px;
+    left: 420px;
+    visibility: hidden;
+}
+
+#vsx {
+    width: 20px;
+    height: 525px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 490px;
+    visibility: hidden;
+}
+
+#vm {
+    width: 20px;
+    height: 525px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 670px;
+    visibility: hidden;
+}
+
+#vdx {
+    width: 20px;
+    height: 525px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 847px;
+    visibility: hidden;
+}
+
+#dn {
+    width: 600px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 265px;
+    left: 380px;
+    transform: rotate(45deg);
+    visibility: hidden;
+}
+
+#dp {
+    width: 600px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 265px;
+    left: 380px;
+    transform: rotate(-45deg);
+    visibility: hidden;
+}
